@@ -299,12 +299,12 @@ img {
 }
 
 .home_blob {
-    width: 280px;
+    width: 200px;
     fill: var(--first-color);
 }
 
 .home_blob-img {
-    width: 180px;
+    width: 170px;
 }
 
 .home_data {
@@ -1111,7 +1111,7 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
-    .home-content {
+    .home_content {
         grid-template-columns: max-content 1fr 1fr;
     }
 
