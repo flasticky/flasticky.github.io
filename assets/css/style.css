@@ -514,6 +514,82 @@ img {
     background-color: var(--first-color);
 }
 
+.skills_tcpip {
+    width: 98%;
+}
+
+.skills_switchingRouting {
+    width: 92%;
+}
+
+.skills_dns {
+    width: 85%;
+}
+
+.skills_firewall {
+    width: 80%;
+}
+
+.skills_wireless {
+    width: 90%;
+}
+
+.skills_vlan {
+    width: 95%;
+}
+
+.skills_vpn {
+    width: 84%;
+}
+
+.skills_cisco {
+    width: 76%;
+}
+
+.skills_filesystem {
+    width: 98%;
+}
+
+.skills_rights {
+    width: 95%;
+}
+
+.skills_processes {
+    width: 80%;
+}
+
+.skills_sudo {
+    width: 84%;
+}
+
+.skills_disk {
+    width: 95%;
+}
+
+.skills_ufs {
+    width: 75%;
+}
+
+.skills_limits {
+    width: 80%;
+}
+
+.skills_web {
+    width: 85%;
+}
+
+.skills_wireless {
+    width: 90%;
+}
+
+.skills_os {
+    width: 80%;
+}
+
+.skills_ad {
+    width: 74%;
+}
+
 .skills_html {
     width: 90%;
 }
@@ -528,34 +604,6 @@ img {
 
 .skills_bootstrap {
     width: 98%;
-}
-
-.skills_php {
-    width: 70%;
-}
-
-.skills_node {
-    width: 65%;
-}
-
-.skills_firebase {
-    width: 60%;
-}
-
-.skills_python {
-    width: 58%;
-}
-
-.skills_figma {
-    width: 60%;
-}
-
-.skills_sketch {
-    width: 75%;
-}
-
-.skills_photoshop {
-    width: 80%;
 }
 
 .skills_close .skills_list
@@ -1110,8 +1158,10 @@ img {
 }
 
 /* For medium devices */
-@media screen and (min-width: 568px) {
-    .home_content {
+@media screen and (min-width: 568px)
+{
+    .home_content
+    {
         grid-template-columns: max-content 1fr 1fr;
     }
 
