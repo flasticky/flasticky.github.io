@@ -37,7 +37,7 @@
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /* Margenes Bottom */
+    /* Margins Bottom */
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
@@ -427,7 +427,6 @@ img {
 {
     color: var(--text-color);
     font-weight: bold;
-
 }
 
 .about_info {
@@ -898,6 +897,12 @@ img {
 .swiper-button-prev, .swiper-button-next, .swiper-pagination-bullet
 {
     outline: none;
+}
+
+.about_portfolioLink
+{
+    color: var(--text-color);
+    font-weight: bold;
 }
 
 /* ====== PROJECTS IN MIND ====== */
