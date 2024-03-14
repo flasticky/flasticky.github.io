@@ -178,3 +178,27 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/* Email JS */
+const contactForm = document.getElementById('contact-form'),
+    contactName = document.getElementById('contact-name'),
+    contactEmail = document.getElementById('contact-email'),
+    contactProject = document.getElementById('contact-project'),
+    contactMessage = document.getElementById('contact-message')
+
+const sendEmail = (e) => {
+    e.preventDefault()
+
+    if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '' || contactMessage.value === '')
+    {
+        contactMessage.textContent = 'Please fill in all fields.'
+    }
+    else
+    {
+    }
+}
+
+contactForm.addEventListener('submit', sendEmail)
+
+

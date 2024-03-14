@@ -882,36 +882,40 @@
                 </div>
             </div>
 
-            <form action="" class="contact_form grid">
+            <!--
+            <form action="" class="contact_form grid" id="contact-form">
                 <div class="contact_inputs grid">
                     <div class="contact_content">
-                        <label for="" class="contact_label">Name</label>
-                        <input type="text" class="contact_input">
+                        <label for="contact-name" class="contact_label">Name</label>
+                        <input type="text" class="contact_input" name="user_name" id="contact-name">
                     </div>
 
                     <div class="contact_content">
-                        <label for="" class="contact_label">Email</label>
-                        <input type="email" class="contact_input">
+                        <label for="contact-email" class="contact_label">Email</label>
+                        <input type="email" class="contact_input" name="user_email" id="contact-email">
                     </div>
                 </div>
 
                 <div class="contact_content">
-                    <label for="" class="contact_label">Project</label>
-                    <input type="text" class="contact_input">
+                    <label for="contact-project" class="contact_label">Project</label>
+                    <input type="text" class="contact_input" name="user_project" id="contact-project">
                 </div>
 
                 <div class="contact_content">
-                    <label for="" class="contact_label">Message</label>
-                    <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    <label for="contact-message" class="contact_label">Message</label>
+                    <textarea name="user_message" id="contact-message" cols="0" rows="7" class="contact_input"></textarea>
                 </div>
 
+                <p class="contact_message" id="contact_message">Message sent</p>
+
                 <div>
-                    <a href="#" class="button button-flex">
+                    <button type="submit" class="button button-flex" style="border: none">
                         Send Message &nbsp;
                         <i class="uil uil-message button_icon"></i>
-                    </a>
+                    </button>
                 </div>
             </form>
+            -->
         </div>
     </section>
 </main>
@@ -960,6 +964,11 @@
 
 <!-- JS -->
 <script src='./assets/js/script.js'></script>
+
+<script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
 
 </body>
 </html>
